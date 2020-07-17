@@ -5,5 +5,14 @@
   "repository": "https://github.com/bwasilewski/TUI-CSS.git",
   "author": "Benjamin Wasilewski <benwasilewski@gmail.com>",
   "license": "MIT",
-	"private": true
+  "private": true,
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "sass-loader": "^9.0.2"
+  }
 }

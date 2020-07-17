@@ -1,0 +1,9 @@
+{
+  "name": "TUI-CSS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bwasilewski/TUI-CSS.git",
+  "author": "Benjamin Wasilewski <benwasilewski@gmail.com>",
+  "license": "MIT",
+	"private": true
+}

@@ -22,5 +22,11 @@ const renderComplete = (err, result) => {
 	}
 }
 
-sass.render(sassOptions, renderComplete)
+fs.watch('./src/', (eventType, filename) => {
+	if ( filename ) {
+		console.log('Event: ', eventType)
+		console.log('File: ', filename)
+		sass.render(sassOptions, renderComplete)
+	}
+})
 

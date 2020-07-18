@@ -1,2 +1,12 @@
-@use "./reset";
+$background-color: #010101;
 
+body {
+	background-color: $background-color;
+	font-family: monospace;
+	color: green;
+}
+
+hr {
+	content: "=";
+	display: block;
+}

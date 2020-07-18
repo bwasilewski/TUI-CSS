@@ -1,0 +1,8 @@
+body {
+  background-color: #010101;
+  font-family: monospace;
+  color: green; }
+
+hr {
+  content: "=";
+  display: block; }
